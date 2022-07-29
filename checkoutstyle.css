@@ -5,23 +5,23 @@
 
 .pagamento-envio {
   display: block;
-  width: 50%;
+  width: 40%;
   margin: 30px;
   padding: 20px;
-  border: 1px solid pink;
+  background-color: rgb(248, 248, 248);
 }
 
-.pagamento-envio .email-login {
+.email-login {
   width: auto;
   display: flex;
   border: 1px solid #ccc;
   border-radius: 3px;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.pagamento-envio .email-login p {
-}
-
-.pagamento-envio .email-login a {
+.email-login a {
+  color: black;
 }
 
 .pagamento-envio .endereco {
@@ -73,4 +73,43 @@ th .opcao-envio {
 
 th .opcao-envio label {
   margin: 10px;
+}
+
+.prazo-aviso {
+  height: 15px;
+  display: block;
+  margin: 6px;
+  padding: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(216, 216, 216, 0.959);
+}
+
+.prazo-aviso p {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.observacoes h4 {
+  margin: 5px 0;
+}
+
+.observacoes {
+  display: block;
+  margin: 3px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.observacoes textarea {
+  width: 100%;
+}
+
+.opcao-voltar {
+  margin: 8px;
+}
+
+.opcao-voltar {
+  color: black;
 }
