@@ -12,7 +12,7 @@ body #primeiraDiv{
 }
 
 #fundo {
-    background-image: url(/CarrinhoDeCompraAberto/img/4.cc1b956720638b5d5b32.png);
+    background-image: url(/CarrinhoDeCompraAberto/img/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -24,16 +24,18 @@ body #primeiraDiv{
 .carrinho-aberto {
     grid-column: 4/5;
     grid-row: 1/4;
+    box-shadow: -4px 1px 17px 0px rgb(0 0 0 / 57%);
 }
 
     /* cabeçalho do carrinho */
 #titulo-carrinho {
-    background-color: #e496c0;
+    background-color: #f3cbe1;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     height: 8vh;
+
 }
 
 #titulo-carrinho h2 {
@@ -44,7 +46,7 @@ body #primeiraDiv{
     position: absolute;
     left: 1vh;
     font-size: 1.5rem;
-    background-color: #e496c0;
+    background-color: #f3cbe1;
     border: none;
     color: black;
 }
@@ -150,7 +152,14 @@ body #primeiraDiv{
     font-size: 0.7rem;
     border: 1px solid black;
     padding: 3%;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+#produtos-do-carrinho .menos:hover {
+    background-color: #efb9d6;
+}
+
 #produtos-do-carrinho .mais {
     background-color: #fff;
     height: 3vh;
@@ -159,6 +168,12 @@ body #primeiraDiv{
     font-size: 0.7rem;
     border: 1px solid black;
     padding: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#produtos-do-carrinho .mais:hover {
+    background-color: #efb9d6;
 }
 
 #produtos-do-carrinho .quantidade {
@@ -206,6 +221,13 @@ body #primeiraDiv{
     box-shadow: 1px -1px 4px 0px rgba(0, 0, 0, 0.575);
     font-size: 1rem;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#subtotal button:hover {
+    background-color: rgba(0, 0, 0, 0.11);
+    color: black;
 }
 
 @media only screen and (max-width: 1000px) {
