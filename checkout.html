@@ -13,71 +13,87 @@
         <h1>Você</h1>
         <div class="email-login">
           <p>fashion@gmail.com</p>
+
           <a>sair e trocar</a>
         </div>
         <h1>Destino</h1>
-        <div class="destino">
-          <div class="endereco">
-            Plataforma lset Alameda dos Jacarandás, 140 São Luiz - Belo
-            Horizonte - MG 31275-060
+        <div class="endereco">
+          <p class="endereco-cliente">
+            Plataforma lset<br />
+            Alameda dos Jacarandás, 140<br />
+            São Luiz - Belo Horizonte - MG<br />
+            31275-060
+          </p>
 
+          <div class="envio-sign">
             <p>Endereço para envio</p>
           </div>
         </div>
-        <h2>Forma de envio</h2>
+        <h1>Forma de envio</h1>
         <div class="envio-form">
           <div class="entrega-selection">
             <table>
               <tr>
                 <th>
-                  <input
-                    name="entrega-option"
-                    type="radio"
-                    value="retirada local"
-                  />
-                  <label>Retirada no local</label>
-                  <p>Grátis</p>
+                  <div class="opcao-envio">
+                    <input
+                      type="radio"
+                      name="entrega-option"
+                      value="retirada-local"
+                    />
+                    <label> Retirada no Local </label>
+                    <label>Grátis</label>
+                  </div>
                 </th>
                 <th>
-                  <input
-                    name="entrega-option"
-                    type="radio"
-                    value="frete gratis"
-                  />
-                  <label>Frete-grátis</label>
-                  <p>Grátis</p>
-                </th>
-              </tr>
-              <tr>
-                <th>
-                  <input name="entrega-option" type="radio" value="motoboy" />
-                  <label>Motoboy</label>
-                  <p></p>
-                  <p>R$ 15,00</p>
-                </th>
-                <th>
-                  <input
-                    name="entrega-option"
-                    type="radio"
-                    value="retirada proxima"
-                  />
-                  <label>Retirar próximo ao meu endereço</label>
-                  <p>Previsão: 4 dias úteis</p>
-                  <p>R$ 20,70</p>
+                  <div class="opcao-envio">
+                    <input
+                      name="entrega-option"
+                      type="radio"
+                      value="frete gratis"
+                    />
+                    <label>Frete-grátis</label>
+                    <label>Grátis</label>
+                  </div>
                 </th>
               </tr>
               <tr>
                 <th>
-                  <input name="entrega-option" type="radio" value="pac" />
-                  <label>PAC</label>
-                  <p>Previsão: 5 dias úteis</p>
-                  <p>R$ 32,20</p>
+                  <div class="opcao-envio">
+                    <input name="entrega-option" type="radio" value="motoboy" />
+                    <label>Motoboy </label>
+                    <label>R$ 15,00</label>
+                  </div>
                 </th>
                 <th>
-                  <input name="entrega-option" type="radio" value="package" />
-                  <label>Package</label>
-                  <p>Previsão: 4 dias úteis</p>
-                  <p>R$ 35,50</p>
+                  <div class="opcao-envio">
+                    <input
+                      name="entrega-option"
+                      type="radio"
+                      value="retirada proxima"
+                    />
+                    <label>Retirar próximo ao meu endereço</label>
+                    <label>Previsão: 4 dias úteis</label>
+                    <label>R$ 20,70</label>
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <div class="opcao-envio">
+                    <input name="entrega-option" type="radio" value="pac" />
+                    <label>PAC</label>
+                    <label>labelrevisão: 5 dias úteis</label>
+                    <label>R$ 32,20</label>
+                  </div>
+                </th>
+                <th>
+                  <div class="opcao-envio">
+                    <input name="entrega-option" type="radio" value="package" />
+                    <label>Package</label>
+                    <label>labelrevisão: 4 dias úteis</label>
+                    <label>R$ 35,50</label>
+                  </div>
                 </th>
               </tr>
             </table>
