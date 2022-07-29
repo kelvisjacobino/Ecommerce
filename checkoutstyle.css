@@ -8,13 +8,25 @@
   width: 40%;
   margin: 30px;
   padding: 20px;
-  background-color: rgb(248, 248, 248);
+  background-color: #efc4db;
 }
+
+/* #F3CBE1
+#EFB9D6
+#EAAACC
+#F5EFF3
+#D6BAC8
+#A69A9F
+#E496C0
+#F7D6E7
+#EFC4DB
+#876F77
+ */
 
 .email-login {
   width: auto;
   display: flex;
-  border: 1px solid #ccc;
+  border: 1px solid #f7d6e7;
   border-radius: 3px;
   justify-content: space-between;
   padding: 10px;
@@ -28,10 +40,10 @@
   width: 85%;
   height: 150px;
   margin: 10px auto;
-  border: 1px solid black;
+  border: 1px solid #f7d6e7;
   box-shadow: 1px 3px 3px 1px gray;
   border-radius: 4px;
-  background-color: white;
+  background-color: #f7d6e7;
   text-align: center;
 }
 
@@ -39,7 +51,6 @@
   text-align: left;
   margin: 10px;
   justify-content: left;
-  border: 1px solid #ccc;
 }
 
 .endereco .envio-sign p {
@@ -56,12 +67,12 @@ table {
 
 th,
 td {
-  border: 1px solid black;
+  border: 1px solid #f7d6e7;
 }
 
 th {
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #f7d6e7;
   border-radius: 4px;
   box-shadow: 4px 3px 16px -1px rgba(0, 0, 0, 0.12);
   text-align: left;
@@ -92,9 +103,9 @@ th .opcao-envio label {
   display: block;
   margin: 6px;
   padding: 15px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #f7d6e7;
   border-radius: 5px;
-  background-color: rgba(216, 216, 216, 0.959);
+  background-color: #f7d6e7;
 }
 
 .prazo-aviso p {
@@ -115,7 +126,9 @@ th .opcao-envio label {
 }
 
 .observacoes textarea {
+  padding: 5px;
   width: 100%;
+  background-color: #f7d6e7;
 }
 
 .opcao-voltar {
