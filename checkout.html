@@ -4,18 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="checkoutstyle.css" />
     <title>Checkout</title>
   </head>
   <body>
     <div class="pagamento-envio">
       <div class="envio">
-        <h1>Envio</h1>
+        <h1>Você</h1>
         <div class="email-login">
           <p>fashion@gmail.com</p>
           <a>sair e trocar</a>
         </div>
+        <h1>Destino</h1>
+        <div class="destino">
+          <div class="endereco">
+            Plataforma lset Alameda dos Jacarandás, 140 São Luiz - Belo
+            Horizonte - MG 31275-060
+
+            <p>Endereço para envio</p>
+          </div>
+        </div>
+        <h2>Forma de envio</h2>
+        <div class="envio-form">
+          <div class="entrega-selection">
+            <table>
+              <tr>
+                <th>
+                  <input
+                    name="entrega-option"
+                    type="radio"
+                    value="retirada local"
+                  />
+                  <label>Retirada no local</label>
+                  <p>Grátis</p>
+                </th>
+                <th>
+                  <input
+                    name="entrega-option"
+                    type="radio"
+                    value="frete gratis"
+                  />
+                  <label>Frete-grátis</label>
+                  <p>Grátis</p>
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <input name="entrega-option" type="radio" value="motoboy" />
+                  <label>Motoboy</label>
+                  <p></p>
+                  <p>R$ 15,00</p>
+                </th>
+                <th>
+                  <input
+                    name="entrega-option"
+                    type="radio"
+                    value="retirada proxima"
+                  />
+                  <label>Retirar próximo ao meu endereço</label>
+                  <p>Previsão: 4 dias úteis</p>
+                  <p>R$ 20,70</p>
+                </th>
+              </tr>
+              <tr>
+                <th>
+                  <input name="entrega-option" type="radio" value="pac" />
+                  <label>PAC</label>
+                  <p>Previsão: 5 dias úteis</p>
+                  <p>R$ 32,20</p>
+                </th>
+                <th>
+                  <input name="entrega-option" type="radio" value="package" />
+                  <label>Package</label>
+                  <p>Previsão: 4 dias úteis</p>
+                  <p>R$ 35,50</p>
+                </th>
+              </tr>
+            </table>
+            <p>Prazo de entrega dos Correios é de cinco dias após a postagem</p>
+            <h4>Observações</h4>
+            <textarea
+              name="observação"
+              cols="60"
+              rows="4"
+              placeholder="Adicione alguma informação adicional relacionada ao seu pedido"
+            ></textarea>
+            <a> Voltar para o carrinho</a>
+          </div>
+        </div>
       </div>
-      <div class="pagamento"></div>
     </div>
   </body>
 </html>

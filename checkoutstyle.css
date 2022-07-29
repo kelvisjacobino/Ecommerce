@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pagamento-envio {
+  display: block;
+  width: 50%;
+  border: 1px solid pink;
+}
+
+.pagamento-envio .email-login {
+  width: auto;
+  display: flex;
+  border: 1px solid black;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
