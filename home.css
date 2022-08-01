@@ -25,16 +25,15 @@ body {
   justify-content: space-between;
   padding: 10px 80px;
 
-  background: #ffff;
+  background: #f7d6e7;
 }
 
 .content-left-header {
   display: flex;
 }
 
-.content-left-header span {
-  font-size: 32px;
-  text-transform: uppercase;
+.content-left-header img {
+  width: 15%;
 }
 
 .content-right-header {
